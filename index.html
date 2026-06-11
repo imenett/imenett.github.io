@@ -9,32 +9,32 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --navy:        #080f1e;
-      --navy-mid:    #0e1a30;
-      --navy-card:   #111e35;
-      --navy-card2:  #152340;
-      --navy-border: #1d2e4a;
-      --navy-border2:#243556;
-      --violet:      #7c3aed;
-      --violet-dim:  #4c1d95;
-      --violet-glow: rgba(124,58,237,0.18);
-      --violet-light:#a78bfa;
-      --amber:       #f59e0b;
-      --amber-dim:   #92400e;
-      --amber-glow:  rgba(245,158,11,0.14);
-      --amber-light: #fcd34d;
-      --cyan:        #22d3ee;
-      --cyan-dim:    #164e63;
-      --muted:       #7a96b8;
-      --text:        #d8e8f5;
-      --text-dim:    #7a96b8;
-      --white:       #eef4ff;
+      --navy:        #f8f9fa;
+      --navy-mid:    #ffffff;
+      --navy-card:   #ffffff;
+      --navy-card2:  #f3f4f6;
+      --navy-border: #e5e7eb;
+      --navy-border2:#d1d5db;
+      --violet:      #6d28d9;
+      --violet-dim:  #ddd6fe;
+      --violet-glow: rgba(109,40,217,0.1);
+      --violet-light:#7c3aed;
+      --amber:       #6d28d9;
+      --amber-dim:   #ddd6fe;
+      --amber-glow:  rgba(109,40,217,0.1);
+      --amber-light: #7c3aed;
+      --cyan:        #0891b2;
+      --cyan-dim:    #cffafe;
+      --muted:       #6b7280;
+      --text:        #1f2937;
+      --text-dim:    #9ca3af;
+      --white:       #111827;
     }
 
     html { scroll-behavior: smooth; }
 
     body {
-      background: var(--navy);
+      background: linear-gradient(to bottom, #f8f9fa, #ffffff);
       color: var(--text);
       font-family: 'Inter', sans-serif;
       font-size: 15px;
@@ -52,7 +52,7 @@
       background-size: 200px 200px;
       pointer-events: none;
       z-index: 0;
-      opacity: 0.35;
+      opacity: 0.08;
     }
 
     /* ── AMBIENT ORBS ── */
@@ -65,17 +65,17 @@
     }
     .orb-1 {
       width: 600px; height: 600px;
-      background: radial-gradient(circle, rgba(124,58,237,0.12), transparent 70%);
+      background: radial-gradient(circle, rgba(109,40,217,0.08), transparent 70%);
       top: -100px; left: -150px;
     }
     .orb-2 {
       width: 500px; height: 500px;
-      background: radial-gradient(circle, rgba(245,158,11,0.09), transparent 70%);
+      background: radial-gradient(circle, rgba(109,40,217,0.05), transparent 70%);
       top: 30vh; right: -120px;
     }
     .orb-3 {
       width: 400px; height: 400px;
-      background: radial-gradient(circle, rgba(34,211,238,0.07), transparent 70%);
+      background: radial-gradient(circle, rgba(8,145,178,0.05), transparent 70%);
       bottom: 10vh; left: 20%;
     }
 
